@@ -1,8 +1,8 @@
 **Table of Contents:**
-1. [**Twitter+**]()
-2. [**Features**]()
-3. [**Frequently Asked Questions**]()
-4. [**Help and Support**]()
+1. [**Twitter+**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#twitter)
+2. [**Features**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#features)
+3. [**Frequently Asked Questions**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#frequently-asked-questions)
+4. [**Help and Support**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#help-and-support)
 5. [****]()
 6. [****]()
 # Twitter+
