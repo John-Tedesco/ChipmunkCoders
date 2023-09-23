@@ -1,8 +1,15 @@
+**Table of Contents:**
+1. [**Twitter+**]()
+2. [**Features**]()
+3. [**Frequently Asked Questions**]()
+4. [**Help and Support**]()
+5. [****]()
+6. [****]()
 # Twitter+
-Welcome to *Twitter+*! Twitter allows you to take your thoughts, experiences, and more to connect with others all throughout the world! The Twitter App takes Twitter to a simpler level for a more comfortable experience.
+> Welcome to Twitter+! Twitter+ allows you to take your thoughts, experiences, and more to connect with others all throughout the world! Twitter+ is designed to connect people, facilitate conversations, and share thoughts in real-time. Twitter+ also offers some unique features to help it stand out.
 ## Features
-Once on the Twitter App, you will be greeted to the For You page. This page is directly next to the following page at the top, which can be tapped to switch to your following page. These pages are a part of the home page. The home page is one of four options to tap through. You also have an explore page to either search anything you want, or explore one of five different preset pages. You have a notifications page for anything sent to you or that you wished to be notified about. The final page at the bottom is for messages where you can message others, and others can message you. While on any page other than messages, there is a blue button with a plus that you can tap to make a Tweet! This button turns into a button to create a new message, if you are in the messages page. While on any page, there is an icon at the top left that can be tapped to open a sidebar for your account, profile, bookmarks, lists, settings, and a help center. At the top right is a cog icon which opens a side bar for settings based on which page you are on.
-## Tweets and Engagement
-Whenever a tweet is made, anyone can interact with it! Once a tweet has been made and you have viewed it, there are a few things you can do! There are three options at the bottom to directly interact with the tweet, replying, retweeting, and liking. You use the speech bubble at the bottom left to reply to the tweet, you use the rotating arrows in the middle to retweet the tweet, and you use the heart at the bottom right to like the tweet. Other than that, at the top right of tweets there is are three dots that can be tapped to do a few more things. You can follow the person that made the tweet, add/remove it from a list, block the person that made the tweet, or report the tweet. Please be kind and respectful and make sure to report anything or anyone that isn't!
+> Twitter+ offers a variety of different features to keep you entertained. Twitter+ offers the ability to now download videos right from a tweet! No more need for work arounds or third-party sites/apps. On the video side of things, Twitter+ also offers a livestreaming capability similar to other platforms like twitch or youtube. Onto customization, your profile is your profile! Twitter+ has a variety of options to change on your profile to customize it to your exact liking. Your feeds are also customizable to show you what you want. You can categorize, or filter, based on your interests to make your Twitter+ experience yours! Twitter+ also has content communities that you can join tailored to all different sorts of categories and topics. Twitter+ is also reinventing the business side to help small businesses promote themselves more and grow. These businesses would have their tweets pushed to you if your interests and the business match. Twitter+'s final offered feature is it's dating feature. This would offer people an option to make a profile similar to tinder to meet people. The difference for Twitter+ is that the profiles would have more descriptions and access to the person's Twitter to see their tweets and interests!
+## 
+> 
 ## Help and Support
-Any questions can be asked or may have already been answered on the [Support Center](https://www.ThisHasToBeChanged.com/).
+> Any questions can be asked or may have already been answered on the [Support Center](https://www.ThisHasToBeChanged.com/).
