@@ -1,5 +1,5 @@
-# Twitter App
-Welcome to the Twitter App! Twitter allows you to take your thoughts, experiences, and more to connect with others all throughout the world! The Twitter App takes Twitter to a simpler level for a more comfortable experience.
+# Twitter+
+Welcome to *Twitter+*! Twitter allows you to take your thoughts, experiences, and more to connect with others all throughout the world! The Twitter App takes Twitter to a simpler level for a more comfortable experience.
 ## Features
 Once on the Twitter App, you will be greeted to the For You page. This page is directly next to the following page at the top, which can be tapped to switch to your following page. These pages are a part of the home page. The home page is one of four options to tap through. You also have an explore page to either search anything you want, or explore one of five different preset pages. You have a notifications page for anything sent to you or that you wished to be notified about. The final page at the bottom is for messages where you can message others, and others can message you. While on any page other than messages, there is a blue button with a plus that you can tap to make a Tweet! This button turns into a button to create a new message, if you are in the messages page. While on any page, there is an icon at the top left that can be tapped to open a sidebar for your account, profile, bookmarks, lists, settings, and a help center. At the top right is a cog icon which opens a side bar for settings based on which page you are on.
 ## Tweets and Engagement
