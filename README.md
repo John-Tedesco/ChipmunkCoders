@@ -1,8 +1,9 @@
 **Table of Contents:**
 1. [**Twitter+**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#twitter)
 2. [**Features**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#features)
-3. [**Frequently Asked Questions**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#frequently-asked-questions)
-4. [**Help and Support**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#help-and-support)
+3. [**Tips for a Better Experience**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#tips-for-a-better-experience)
+4. [**Frequently Asked Questions**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#frequently-asked-questions)
+5. [**Help and Support**](https://github.com/John-Tedesco/ChipmunkCoders/blob/main/README.md#help-and-support)
 # Twitter+
 > Welcome to Twitter+! Twitter+ allows you to take your thoughts, experiences, and more to connect with others all throughout the world! Twitter+ is designed to connect people, facilitate conversations, and share thoughts in real-time. Twitter+ also offers some unique features to help it stand out.
 ## Features
