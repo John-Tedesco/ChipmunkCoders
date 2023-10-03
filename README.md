@@ -14,6 +14,6 @@
 > - Stay updated and follow news and trending topics to stay informed.
 > - Tweet reuglarly, consistency can help you grow your followers.
 ## Frequently Asked Questions
-> Find answers to common questions about using Twitter+ in the [Twitter+ Help Center](Twitter+HelpCenter.com/) or [Community Forums](CommunityForums.com/).
+> Find answers to common questions about using Twitter+ in the [Twitter+ Help Center](https//www.Twitter+HelpCenter.com/) or [Community Forums](https://www.CommunityForums.com/).
 ## Help and Support
 > Any questions can be asked or may have already been answered on the [Support Center](https://www.ThisHasToBeChanged.com/).
