@@ -1,0 +1,589 @@
+<mxfile host="app.diagrams.net" modified="2023-11-27T14:23:36.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="R0S4RK7QuDcaED54Oo1F" version="22.1.4" type="google" pages="5">
+  <diagram name="Download Videos" id="YZHNgq75ej8SfX3H_qbU">
+    <mxGraphModel dx="1114" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AFO06t2-4AzRlZe6-utV-23" value="Use Case Name:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-24" value="Scenario:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-25" value="Triggering Event:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-27" value="Brief Description:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-28" value="Actors:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-29" value="Related use cases:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-31" value="Preconditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-32" value="Postconditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-33" value="Flow of Activities:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="720" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-34" value="Exception Conditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="720" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="s1QCzEqUIdNU6LvG-4HQ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="1000" as="sourcePoint" />
+            <mxPoint x="220" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-35" value="Download Videos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-36" value="Download a video from Twitter+" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-37" value="User wants to download a video" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-38" value="User downloads video by opening a menu, either right clicking on desktop, or holding a finger down on mobile. User then downloads, and selects where they want the video downloaded." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="127" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-39" value="Users" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-40" value="NA" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-42" value="Video is downloaded to users device" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-43" value="Actor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AFO06t2-4AzRlZe6-utV-45" value="User must have storage space on their device and have a Twitter+ account." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1QCzEqUIdNU6LvG-4HQ-3" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AFO06t2-4AzRlZe6-utV-43" target="AFO06t2-4AzRlZe6-utV-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1QCzEqUIdNU6LvG-4HQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AFO06t2-4AzRlZe6-utV-42" target="AFO06t2-4AzRlZe6-utV-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="470" />
+              <mxPoint x="490" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1QCzEqUIdNU6LvG-4HQ-7" value="System" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1QCzEqUIdNU6LvG-4HQ-8" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="s1QCzEqUIdNU6LvG-4HQ-7" target="s1QCzEqUIdNU6LvG-4HQ-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="360" as="sourcePoint" />
+            <mxPoint x="630" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1QCzEqUIdNU6LvG-4HQ-10" value="1. User attempts to download video" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="s1QCzEqUIdNU6LvG-4HQ-11" value="1.1 Twitter+ asks for desired download location" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="s1QCzEqUIdNU6LvG-4HQ-12" value="2. User selects download location" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="470" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s1QCzEqUIdNU6LvG-4HQ-15" value="2.1 Twitter+ grabs URL and download location&lt;br&gt;2.2 Twitter+ downloads video" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="470" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s1QCzEqUIdNU6LvG-4HQ-17" value="1.1 User inputs invalid location&lt;br&gt;2.1 URL no longer available&lt;br&gt;2.2 Device doesn&#39;t have enough storage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="640" width="540" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MG3p4QOLgCy3peAguGjv" name="Live-stream Videos">
+    <mxGraphModel dx="961" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-1" value="Use Case Name:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-2" value="Scenario:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-3" value="Triggering Event:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-4" value="Brief Description:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-5" value="Actors:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-6" value="Related use cases:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-7" value="Preconditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-8" value="Postconditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-9" value="Flow of Activities:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="720" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-10" value="Exception Conditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="650" width="720" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q6xGXLlh91CAY7hbBlig-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="1000" as="sourcePoint" />
+            <mxPoint x="220" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-12" value="Live-Stream Videos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-13" value="Live-stream video sources to Twitter+" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-14" value="Creator wants to live-stream a video source" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-15" value="Creator uplinks video source to Twitter+ to be encoded to the proper format, and broadcast live through Twitter+. From there, users can join, interact, and also use a chat feature to communicate within the live-stream. Moderators may also be present from the creator. Twitter+ moderation will always be moderating live-streams." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="127" width="540" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-16" value="Users and Creators (Creator added moderators)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-17" value="May be used within content communities." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-18" value="Live-stream is fed to user, creator controls and moderates stream" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="260" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-19" value="Actor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-20" value="Creator must be logged into account, publish a live video source&lt;br&gt;User must be logged into an account, and must be within privacy preferences of creator" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="227" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-21" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q6xGXLlh91CAY7hbBlig-19" target="Q6xGXLlh91CAY7hbBlig-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="370" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q6xGXLlh91CAY7hbBlig-18" target="Q6xGXLlh91CAY7hbBlig-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="480" />
+              <mxPoint x="490" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-23" value="System" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-24" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q6xGXLlh91CAY7hbBlig-23" target="Q6xGXLlh91CAY7hbBlig-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="370" as="sourcePoint" />
+            <mxPoint x="630" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-25" value="1. Creator uploads video source" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-26" value="1.1 Twitter+ encodes format of video source to be streamed live through servers.&amp;nbsp;&lt;br&gt;1.2 Twitter+ asks creator to start stream when ready" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-27" value="2. Creator goes live, with or without moderation team." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="370" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-28" value="2.1 Twitter+ pushes live-stream to platform for users to join and interact with" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6xGXLlh91CAY7hbBlig-29" value="1.1 Video source unavailable" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="650" width="540" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gr_h2PdIcuIyCKaA1Zg--1" value="3. Users join and interact" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gr_h2PdIcuIyCKaA1Zg--2" value="3.1 Users joined logged&lt;br&gt;3.2 Interactions logged and posted" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="410" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gr_h2PdIcuIyCKaA1Zg--3" value="4. Creator ends live-stream" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gr_h2PdIcuIyCKaA1Zg--4" value="4.1 Interactions, video source, moderators, and users cleared from stream&lt;br&gt;4.2 Live-stream saved to creators account as video." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="270" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LVlZqXyizD9nZTfgmAL9" name="Profile Customization">
+    <mxGraphModel dx="1161" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-1" value="Use Case Name:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-2" value="Scenario:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-3" value="Triggering Event:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-4" value="Brief Description:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-5" value="Actors:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-6" value="Related use cases:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-7" value="Preconditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-8" value="Postconditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-9" value="Flow of Activities:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="720" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-10" value="Exception Conditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="720" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EA80WhPAoBUF38ZXPk8c-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="1000" as="sourcePoint" />
+            <mxPoint x="220" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-12" value="Profile Customization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-13" value="Customize profile on Twitter+" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-14" value="User wants to customize their profile&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-15" value="User goes to their profile and edits it to customize the features to their liking." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="127" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-16" value="Users" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-17" value="NA" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-18" value="Changes are updated and made to account" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-19" value="Actor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-20" value="User must have a Twitter+ account&lt;br&gt;User must make changes to account" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="217" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-21" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EA80WhPAoBUF38ZXPk8c-19" target="EA80WhPAoBUF38ZXPk8c-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EA80WhPAoBUF38ZXPk8c-18" target="EA80WhPAoBUF38ZXPk8c-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="470" />
+              <mxPoint x="490" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-23" value="System" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-24" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EA80WhPAoBUF38ZXPk8c-23" target="EA80WhPAoBUF38ZXPk8c-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="360" as="sourcePoint" />
+            <mxPoint x="630" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-25" value="1. User prompts profile customization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-26" value="1.1 Twitter+ prompts features to change and edit for user" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-27" value="2. User makes change to profile" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-28" value="2.1 Twitter+ saves change currently until save is pushed through by user&lt;br&gt;2.2 Twitter+ allows for further editing and changes to be made until user is finished" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EA80WhPAoBUF38ZXPk8c-29" value="1.1 Change not allowed by Twitter+ or banned by moderation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="640" width="540" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ibYQ-zpSomEVZ59yP6do-1" value="3. User is finished and pushes changes to profile" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ibYQ-zpSomEVZ59yP6do-2" value="3.1 Twitter+ permanently saves changes to account" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="420" width="270" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VQUGM5MKl9XBUmDKQdTf" name="Customizable Feeds">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-1" value="Use Case Name:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-2" value="Scenario:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-3" value="Triggering Event:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-4" value="Brief Description:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-5" value="Actors:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-6" value="Related use cases:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-7" value="Preconditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-8" value="Postconditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-9" value="Flow of Activities:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="720" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-10" value="Exception Conditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="720" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CeUJdeSIC8c5ypibzHf0-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="1000" as="sourcePoint" />
+            <mxPoint x="220" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-12" value="Customizable Feeds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-13" value="Customize Twitter+ Feed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-14" value="User wants to customize their Twitter+ feed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-15" value="User selects the filters wanted to customize the feed presented to them." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="127" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-16" value="Users" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-17" value="NA" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-18" value="Feed is updated to customized preferences" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-19" value="Actor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-20" value="User must set filters wanted for feed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-21" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CeUJdeSIC8c5ypibzHf0-19" target="CeUJdeSIC8c5ypibzHf0-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="CeUJdeSIC8c5ypibzHf0-18" target="CeUJdeSIC8c5ypibzHf0-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="470" />
+              <mxPoint x="490" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-23" value="System" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-24" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CeUJdeSIC8c5ypibzHf0-23" target="CeUJdeSIC8c5ypibzHf0-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="360" as="sourcePoint" />
+            <mxPoint x="630" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-25" value="1. User prompts desire to change feed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-26" value="1.1 Twitter+ asks for desired filters" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-27" value="2. User selects filters wanted to customize feed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-28" value="2.1 Twitter+ uses filters to change feed to users wants&lt;br&gt;2.2 Feed is updated and sent to user" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CeUJdeSIC8c5ypibzHf0-29" value="1.1 Filter too specific" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="640" width="540" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8l3o3SwNL1Po7Pmw1JFI" name="Content Communities">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-1" value="Use Case Name:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-2" value="Scenario:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-3" value="Triggering Event:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-4" value="Brief Description:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-5" value="Actors:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-6" value="Related use cases:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-7" value="Preconditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-8" value="Postconditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-9" value="Flow of Activities:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="720" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-10" value="Exception Conditions:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="720" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="48tw0SeW3BcUqBHUdc-J-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="1000" as="sourcePoint" />
+            <mxPoint x="220" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-12" value="Content Communities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-13" value="Create, Join, Interact with Content Communities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-14" value="Creator wants to make or interact with content communities. User wants to join or interact with content communities." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-15" value="Creators can make and interact with content communities, allowing others to join and interact within them. Creators can also set moderation for them that can be different from Twitter+ moderation.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="127" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-16" value="Users, Creators, Moderators" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-17" value="Download of videos may occur, and Live-streaming may occur" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-18" value="Community is created&lt;br&gt;Interactions appear within community" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="247" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-19" value="Actor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-20" value="Creator must supply information for creation of community&lt;br&gt;Users and creators interaction in some way with community" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="216" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-21" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="48tw0SeW3BcUqBHUdc-J-19" target="48tw0SeW3BcUqBHUdc-J-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="48tw0SeW3BcUqBHUdc-J-18" target="48tw0SeW3BcUqBHUdc-J-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="470" />
+              <mxPoint x="490" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-23" value="System" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-24" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="48tw0SeW3BcUqBHUdc-J-23" target="48tw0SeW3BcUqBHUdc-J-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="360" as="sourcePoint" />
+            <mxPoint x="630" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-25" value="1. Creator attempts to create community" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-26" value="1.1 Twitter+ asks for information, name, description, etc." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-27" value="2. Creator supplies information" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-28" value="2.1 Twitter+ verifies information&lt;br&gt;2.2 Twitter+ creates content community" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="48tw0SeW3BcUqBHUdc-J-29" value="2.1 Information invalid or not fulfilled" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="640" width="540" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-GM5ZibBBoDTeTfiKq0O-1" value="3. Creator sets moderation if wanted" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GM5ZibBBoDTeTfiKq0O-2" value="3.1 Users, now moderators, set with powers higher than typical user, but lower than creator" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GM5ZibBBoDTeTfiKq0O-3" value="4. Users join the community" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-GM5ZibBBoDTeTfiKq0O-4" value="4.1 Twitter+ logs joined users" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="420" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-GM5ZibBBoDTeTfiKq0O-5" value="5. Interactions are made within community" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GM5ZibBBoDTeTfiKq0O-6" value="5.1 Twitter+ checks interaction&lt;br&gt;5.2 Twitter+ logs interaction and posts in community" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GM5ZibBBoDTeTfiKq0O-7" value="6. Moderation team moderates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="490" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GM5ZibBBoDTeTfiKq0O-8" value="6.1 Twitter+ logs and makes moderated changes made" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="490" width="270" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
