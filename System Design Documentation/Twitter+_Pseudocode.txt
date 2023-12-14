@@ -1,0 +1,332 @@
+addUser(user)
+
+	Q1: Creates and saves account for user
+	Q2: 	Known - Name, description, details(phone number, address, etc.), login details, 
+			Unknown - Filters, preferences
+
+	Q3: Steps
+		- Interpret user object
+		- Save and create user to explore Twitter+
+
+	Q4: Show adding a user
+		- IF user IS EMPTY
+			THEN user not added
+		- ELSE IF user IS NOT EMPTY
+			THEN user added to Twitter+_Accounts
+		- ENDIF
+		- DISPLAY account created
+		- END
+
+
+
+
+
+addCreator(creator)
+
+	Q1: Creates and saves account for creator
+	Q2: 	Known - User account (listed in addUser), Must create something (Post, community, stream)
+			Unknown - What is to be created first
+
+	Q3: Steps
+		- Once something is created, this fuction must be called
+		- If already a creator, do nothing
+		- Else if not a creator, save user as creator
+
+	Q4: Show adding a creator
+		- split creator TO user AND post
+		- IF post HAS 1
+			THEN add user TO Twitter+_Creators
+		- ELSE IF post HAS MORE THAN 1
+			THEN do nothing
+		- DISPLAY Account Now Creator
+		- END
+
+
+
+addPost(post)
+
+	Q1: Save and push post to feed
+	Q2: 	Known - User, wants to post
+			Unknown - what post is (text, video, picture)
+
+	Q3: Steps
+		- User tries to make post
+		- Users data interpreted for what is to be posted
+		- Data saved to Twitter+
+
+	Q4: Show adding a post
+		- split post TO text AND OR video AND OR picture
+		- IF text AND OR video AND OR picture IS NOT EMPTY
+			THEN post the text AND OR video AND OR picture
+		- ELSE IF text AND OR video AND OR picture IS EMPTY
+			THEN do nothing
+		- END
+
+
+
+addLiveStream(livestream)
+
+	Q1: Add live-stream to Twitter+ when started/created
+	Q2: 	Known - creator, stream with video source, chat area, users
+			Unknown - stream length, number of user viewers, 
+
+	Q3: Steps
+		- Creator starts a stream with their video source
+		- Users might join
+		- Users might interact
+		- Creator ends stream
+
+	Q4: Show addLiveStream(livestream)
+		- WHILE creator IS livestreaming
+			- IF user joins
+				THEN add TO viewers
+			- ELSE IF user leaves
+				THEN remove FROM viewers
+
+			- IF user comments
+				THEN DISPLAY comment
+				ADD to comments
+			- ELSE IF no user comment
+				THEN do nothing
+		- END
+
+
+
+getPost()
+
+	Q1: Return and view recent posts of limited time
+	Q2: 	Known - User wants to view post, post
+			Unknown - length of viewing period
+
+	Q3: Steps
+		- User selects post to view
+		- User stops viewing post
+
+	Q4 show getPost()
+		- WHILE user views post
+			- return post
+
+
+
+joinCommunity(community)
+
+	Q1: Return and view community and community notifications
+	Q2: 	Known - community, user joining community
+			Unknown - Restrictions
+
+	Q3: Steps
+		- User tries to join community
+		- If not blocked out by restrictions, user joins
+		- If user wants, user can leave
+
+	Q4: Show joinCommunity(community)
+		- IF user IS NOT restricted
+			THEN user JOINS community
+		- ELSE IF user IS restricted
+		 THEN user DOES NOT JOIN community
+		- WHILE user IN community
+			- IF user WANTS TO leave
+				THEN user LEAVES community
+		- END
+
+
+
+downloadVideo(video)
+
+	Q1: Download video from post/account to hard drive
+	Q2: 	Known - video source, creator, file type
+			Unknown - file size
+
+	Q3: Steps
+		- User declares they want to download
+		- Video attempts to download
+		- If not enough space, kickback error
+		- If enough space, download video
+
+	Q4: Show downloadVideo(video)
+		- user ATTEMPTS DOWNLOAD video
+		- IF user storage MORE THAN video size
+			THEN video DOWNLOADS
+		- ELSE IF user storage LESS THAN video size
+			THEN video DOES NOT DOWNLOAD
+		- END
+
+
+
+joinLiveStream(livestream)
+
+	Q1: Return and view live-stream
+	Q2: 	Known - livestream, user, livestream chat and interaction
+			Unknown - time in stream, restrictions
+
+	Q3: Steps
+		- User attempts to join livestream
+		- If user is restricted, they don't join
+		- If user isn't restricted, they join
+		- While looped until user leaves, or is kicked from stream end
+
+	Q4: Show joinLiveStream(livestream)
+		- user TRIES TO JOIN livestream
+		- IF user RESTRICTED
+			THEN user DOES NOT JOIN
+		- ELSE IF user NOT RESTRICTED
+			THEN user DOES JOIN
+		- WHILE user DOES NOT leave OR livestream DOES NOT end
+			- user VIEWS livestream
+			- user ALLOWED chat/interaction
+		- END
+
+
+
+chat(message)
+
+	Q1: Upload and push message into comment, chat, etc.
+	Q2: 	Known - User, message for chat or comment
+			Unknown - restrictions
+
+	Q3: Steps
+		- user writes a message
+		- users wants to send message
+		- if allowed, message is sent
+		- if not, message is not sent
+
+	Q4: Show chat(message)
+		- user INPUT message
+		- user SENDS message
+		- IF user NOT RESTRICTED
+			THEN message UPLOADS
+		- ELSE IF user IS RESTRICTED
+			THEN message DOES NOT UPLOAD
+		- END
+
+
+
+customFeed(filters)
+
+	Q1: Personal filter customization of feed
+	Q2: 	Known - filters, feed, user
+			Unknown - user changes mind on filters, user restricted from somewhere
+
+	Q3: Steps
+		- User goes to update feed filters
+		- User inputs filters
+		- User submits filters
+		- Feed updated
+
+	Q4: Show customFeed(filters)
+		- user REQUESTS filters UPDATE
+		- user INPUT new filters
+		- user pushes new filters UPDATE
+		- user new filters UPDATE user feed
+		- END
+
+
+
+getFeed()
+
+	Q1: Return and view feed
+	Q2: 	Known - Feed
+			Unknown - time viewing
+
+	Q3: Steps
+		- User views feed
+
+	Q4: show getFeed()
+		- WHILE user VIEWS feed
+			- RETURN feed
+		- END
+
+
+
+startLiveStream(livestream)
+
+	Q1: Start the livestream and push to Twitter+
+	Q2: 	Known - Creator, video source
+
+	Q3: Steps
+		- Creator wants to start LiveStream
+		- Creator submits video source
+		- Creator requests to go live
+		- Creator goes live
+
+	Q4: Show startLiveStream(livestream)
+		- creator START livestream
+		- creator INPUT video source
+		- creator INPUT live request
+		- creator live
+		- END
+
+
+
+getLiveStream()
+
+	Q1: Return and view live-stream
+	Q2: 	Known - LiveStream
+			Unknown - time viewing/time live
+
+	Q3: Steps
+		- User views livestream
+
+	Q4: Show getLiveStream()
+		- WHILE user VIEWS livestream OR livestream TRUE
+			- RETURN livestream
+		- END
+
+
+
+customizeProfile(profile)
+
+	Q1: Allow profile customization and save if wanted
+	Q2: 	Known - User, profile
+			Unknown - customizations
+
+	Q3: Steps
+		- User wants to update profile
+		- user submits customizations
+		- updates changed and saved
+
+	Q4: Show customizeProfile(profile)
+		- user REQUESTS profile UPDATE
+		- user INPUT profile customization
+		- user UPDATES profile
+		- profile SAVED, DISPLAYED
+		- END
+
+
+
+postTweet(tweet)
+
+	Q1: Save and push tweet
+	Q2: 	Known - Creator wants to post tweet, 
+			Unknown - what tweet is (text, video, picture)
+
+	Q3: Steps
+		- creator wants to post a tweet
+		- creator composes with data
+		- data interpreted as is
+		- data saved to Twitter+
+
+	Q4: Show postTweet(tweet)
+		- SPLIT tweet TO text AND OR video AND OR picture
+		- IF text AND OR video AND OR picture IS NOT EMPTY
+			THEN post text AND OR video AND OR picture
+		- ELSE IF text AND OR video AND OR picture IS EMPTY
+			THEN do nothing
+		- END
+
+
+
+getTweet()
+
+	Q1: Return and view tweet
+	Q2: 	Known - Tweet was made, user wants to view tweet
+			Unknown - Time length user wants to view tweet
+
+	Q3: Steps
+		- User wants to view a tweet so getTweet() is called
+		- User no longer wants to view tweet
+
+	Q4: Show getTweet()
+		- WHILE user IS viewing post
+			- RETURN tweet
+		- END
