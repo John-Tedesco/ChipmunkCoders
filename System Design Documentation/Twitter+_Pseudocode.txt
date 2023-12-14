@@ -2,7 +2,7 @@ addUser(user)
 
 	Q1: Creates and saves account for user
 	Q2: 	Known - Name, description, details(phone number, address, etc.), login details, 
-			Unknown - Filters, preferences
+		Unknown - Filters, preferences
 
 	Q3: Steps
 		- Interpret user object
@@ -25,7 +25,7 @@ addCreator(creator)
 
 	Q1: Creates and saves account for creator
 	Q2: 	Known - User account (listed in addUser), Must create something (Post, community, stream)
-			Unknown - What is to be created first
+		Unknown - What is to be created first
 
 	Q3: Steps
 		- Once something is created, this fuction must be called
@@ -47,7 +47,7 @@ addPost(post)
 
 	Q1: Save and push post to feed
 	Q2: 	Known - User, wants to post
-			Unknown - what post is (text, video, picture)
+		Unknown - what post is (text, video, picture)
 
 	Q3: Steps
 		- User tries to make post
@@ -68,7 +68,7 @@ addLiveStream(livestream)
 
 	Q1: Add live-stream to Twitter+ when started/created
 	Q2: 	Known - creator, stream with video source, chat area, users
-			Unknown - stream length, number of user viewers, 
+		Unknown - stream length, number of user viewers, 
 
 	Q3: Steps
 		- Creator starts a stream with their video source
@@ -96,7 +96,7 @@ getPost()
 
 	Q1: Return and view recent posts of limited time
 	Q2: 	Known - User wants to view post, post
-			Unknown - length of viewing period
+		Unknown - length of viewing period
 
 	Q3: Steps
 		- User selects post to view
@@ -112,7 +112,7 @@ joinCommunity(community)
 
 	Q1: Return and view community and community notifications
 	Q2: 	Known - community, user joining community
-			Unknown - Restrictions
+		Unknown - Restrictions
 
 	Q3: Steps
 		- User tries to join community
@@ -135,7 +135,7 @@ downloadVideo(video)
 
 	Q1: Download video from post/account to hard drive
 	Q2: 	Known - video source, creator, file type
-			Unknown - file size
+		Unknown - file size
 
 	Q3: Steps
 		- User declares they want to download
@@ -182,7 +182,7 @@ chat(message)
 
 	Q1: Upload and push message into comment, chat, etc.
 	Q2: 	Known - User, message for chat or comment
-			Unknown - restrictions
+		Unknown - restrictions
 
 	Q3: Steps
 		- user writes a message
@@ -205,7 +205,7 @@ customFeed(filters)
 
 	Q1: Personal filter customization of feed
 	Q2: 	Known - filters, feed, user
-			Unknown - user changes mind on filters, user restricted from somewhere
+		Unknown - user changes mind on filters, user restricted from somewhere
 
 	Q3: Steps
 		- User goes to update feed filters
@@ -226,7 +226,7 @@ getFeed()
 
 	Q1: Return and view feed
 	Q2: 	Known - Feed
-			Unknown - time viewing
+		Unknown - time viewing
 
 	Q3: Steps
 		- User views feed
@@ -262,7 +262,7 @@ getLiveStream()
 
 	Q1: Return and view live-stream
 	Q2: 	Known - LiveStream
-			Unknown - time viewing/time live
+		Unknown - time viewing/time live
 
 	Q3: Steps
 		- User views livestream
@@ -278,7 +278,7 @@ customizeProfile(profile)
 
 	Q1: Allow profile customization and save if wanted
 	Q2: 	Known - User, profile
-			Unknown - customizations
+		Unknown - customizations
 
 	Q3: Steps
 		- User wants to update profile
@@ -298,7 +298,7 @@ postTweet(tweet)
 
 	Q1: Save and push tweet
 	Q2: 	Known - Creator wants to post tweet, 
-			Unknown - what tweet is (text, video, picture)
+		Unknown - what tweet is (text, video, picture)
 
 	Q3: Steps
 		- creator wants to post a tweet
@@ -320,7 +320,7 @@ getTweet()
 
 	Q1: Return and view tweet
 	Q2: 	Known - Tweet was made, user wants to view tweet
-			Unknown - Time length user wants to view tweet
+		Unknown - Time length user wants to view tweet
 
 	Q3: Steps
 		- User wants to view a tweet so getTweet() is called
